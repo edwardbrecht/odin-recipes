@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    line-height: 1.5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.recipe-selection {
+    list-style: none;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.description {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.ingredients {
+    margin-left: 42vw;
+    list-style: circle;
+    text-align: left;
+}
+
+.steps {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
