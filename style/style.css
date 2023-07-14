@@ -1,18 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     line-height: 1.5rem;
-    background-color: black;
-    color: whitesmoke;
+    padding-bottom: 25px;
 }
 
 h1 {
     margin: 10px;
+    padding-top: 10px;
+
 }
 
 h2 {
@@ -21,26 +22,40 @@ h2 {
 
 .recipe-selection {
     list-style: none;
+    padding-left: 12px;
 }
 
 a {
-    color: whitesmoke;
+    color: black
+}
+
+img {
+    max-width: 500px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    box-shadow: 12px 12px 20px 1px gray;
 }
 
 .description {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 25px;
     text-align: left;
 }
 
 .ingredients {
-    margin-left: 42vw;
     list-style: circle;
     text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .steps {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
     text-align: left;
 }
